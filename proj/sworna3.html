@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head><title> Assignment 3 </title></head> 
+<body>
+    <form id="login" action="">
+        <label for="email"> Email: </label>
+             <input type="email" id="e1"><br>
+        <label for="password"> Password: </label>
+            <input type="password" id="p1"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">        
+    </form>
+
+    <script src="sworna3.js"></script>
+
+<h2> Registered Emails: </h2> 
+<p id="dataPara"></p>
+<script>
+    const email = localStorage.getItem('saved');
+    document.getElementById('dataPara').textContent=email;      // !--- This only shows the latest saved email --! //
+</script>
+
+</body>
+</html>

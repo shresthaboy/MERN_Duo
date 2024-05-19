@@ -1,0 +1,50 @@
+Deerwalk Pass:-
+Username: training_morning
+Password: hotspot_morning
+Password Laptop: DWZone-hotspot1
+Extensions:
+1. Prettier
+2. Code Runner
+3. JS 
+4. Redline (prompt)
+
+let addNums = () => {
+	}
+
+array.forEach loop
+
+void method?
+eventListeners
+DOM environments
+
+REACT:
+
+1. Vite
+2. Create React App
+
+
+POWERSHELL COMMANDS:
+1. ls : list of directories
+2. cd : change directory
+3. mkrdir : make directory
+4. npm --version (for React)
+5. npm create vite@latest : creates project, asks name, framework (React), variant (JS)
+6. npm install
+7. npm run dev
+8. Ctrl+c to terminate
+9. code . (to open react in vscode)
+10. Ctrl + rclick on port to open port in browser
+
+Inside Start React:
+package.json: (main javascript object notation)
+	dom: document object manipulation
+	dependencies: if u install something inside project, as project 	depends on it, it is present here.
+eslint: linter, formatter (like prettier which formats the code)
+node_modules: biggest (200mb) file, contains everything needed to run
+src: !! where we write our code
+
+react functional component : html and js together.
+
+Git: (learn)
+initialize, comment, push 
+
